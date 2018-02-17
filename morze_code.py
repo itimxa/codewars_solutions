@@ -1,3 +1,6 @@
+""" Here you can find my solution for Kata 'Decode the Morse
+Code, advanced', which you can find on link
+https://www.codewars.com/kata/54b72c16cd7f5154e9000457 """
 import re
 def decodeBits(bits):
     pre_result = re.findall('1+|0+', bits.strip('0'))
@@ -16,4 +19,4 @@ def decodeBits(bits):
                 result += '   '
     return result
 
-print(decodeBits("0011111100"))
+
